@@ -1,7 +1,7 @@
 # Mi sitio sobre la Adoración Nocturna – GitHub Pages
 
 Este repositorio aloja el código y la estructura del sitio  
-**https://tonylost.github.io** (o tu dominio propio).
+**https://tonylost.github.io**
 
 ## Contenido
 - Páginas HTML, hojas de estilo y scripts propios (ver LICENCIA).  
