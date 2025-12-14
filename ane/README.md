@@ -27,4 +27,4 @@ Ver [`LICENSE.md`](LICENSE.md).
    respeten la licencia CC BY-NC-ND 4.0.
 
 ## Contacto
-Para contactar abre un [issue](https://github.com/tonylost/issues).
+Para contactar abre un [issue](https://github.com/tonylost/tonylost/issues).
