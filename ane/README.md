@@ -1,12 +1,10 @@
-# Mi sitio sobre la Adoración Nocturna – GitHub Pages
-
-Este repositorio aloja el código y la estructura del sitio  
-**https://tonylost.github.io**
+# Carpeta sobre la Adoración Nocturna
+Esta carpeta aloja contenido sobre la Adoración Nocturna para GitHub Pages.
 
 ## Contenido
 - Páginas HTML, hojas de estilo y scripts propios (ver LICENCIA).  
 - Fragmentos de textos de terceros incluidos **con permiso** o bajo el **artículo 32 de la LPI** (cita breve).  
-- Archivos de configuración Jekyll/Gemfile para generar el sitio estático.
+- Archivos de configuración para generar el sitio estático y la integración como PWA.
 
 ## Derechos de los textos
 Los **textos reproducidos o citados** pertenecen íntegramente a sus  
