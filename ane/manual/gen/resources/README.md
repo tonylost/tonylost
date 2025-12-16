@@ -1,12 +1,18 @@
-# Mi sitio sobre la Adoración Nocturna – GitHub Pages
+# MANUAL DE LA ADORACIÓN NOCTURNA ESPAÑOLA
 
-Este repositorio aloja el código y la estructura del sitio  
-**https://tonylost.github.io**
+Este repositorio aloja la estructura base original 
+del Manual de la Adoración Nocturna Española.<br>
+Todos los textos están disponibles públicamente en el [sitio web de la asociación](https://www.adoracion-nocturna.org).
 
 ## Contenido
+Contenido de este directorio:  
+- Copias parciales de obras protegidas incluidas con permiso
+  del autor/editorial o bajo excepción de cita.  
+- Queda prohibida su reproducción o distribución fuera de
+  este contexto sin autorización escrita del titular.
 - Páginas HTML, hojas de estilo y scripts propios (ver LICENCIA).  
 - Fragmentos de textos de terceros incluidos **con permiso** o bajo el **artículo 32 de la LPI** (cita breve).  
-- Archivos de configuración Jekyll/Gemfile para generar el sitio estático.
+- Archivos de configuración para generar el sitio estático y la integración como PWA.
 
 ## Derechos de los textos
 Los **textos reproducidos o citados** pertenecen íntegramente a sus  
