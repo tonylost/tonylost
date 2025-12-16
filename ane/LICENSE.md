@@ -1,4 +1,4 @@
-© 2025 tonylost 
+© 2025 tonylost <br>
 Este repositorio (estructura, scripts, diseño, notas introductorias
 y comentarios propios) se publica bajo  
 Creative Commons Reconocimiento-NoComercial-SinObraDerivada 4.0  
