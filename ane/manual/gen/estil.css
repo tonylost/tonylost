@@ -1,6 +1,7 @@
 ﻿
 
 /* BASIC PAGE SETUP ============================================================================= */
+/* BACKGROUND SEPIA DE MÁS OSCURO A MÁS CLARO: #f1e7d0-#f6efd3*-#f3e9d2-#f5ebd5-#fbf0d9kindle === */
 
 body { 
 margin : 0 auto;
@@ -1386,6 +1387,92 @@ h4.news-title { margin:0; padding:0; }
 .gallery { float:left; width:100%; background:#fff;  text-align:center; }
 
 
+/*	BOTONES FLOTANTES ==================================================================== */
+/*  ICONOS FLOTANTES ===================================================================== */
+
+.floating-icons {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.floating-icons:hover {
+    opacity: 1;
+}
+
+.floating-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgba(0, 75, 141, 0.3);
+}
+
+.floating-icon:hover {
+    background-color: rgba(0, 75, 141, 0.9);
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.floating-icon img {
+    width: 24px;
+    height: 24px;
+    display: block;
+}
+
+.floating-icon:hover img {
+    filter: brightness(0) invert(1);
+}
+
+/* Adaptación para tablets */
+@media only screen and (max-width: 768px) {
+    .floating-icons {
+        top: 8px;
+        right: 8px;
+        gap: 6px;
+    }
+    
+    .floating-icon {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .floating-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+/* Adaptación para móviles */
+@media only screen and (max-width: 480px) {
+    .floating-icons {
+        top: 5px;
+        right: 5px;
+        gap: 5px;
+    }
+    
+    .floating-icon {
+        width: 32px;
+        height: 32px;
+    }
+    
+    .floating-icon img {
+        width: 18px;
+        height: 18px;
+    }
+}
 
 
 
