@@ -1619,3 +1619,26 @@ body.dark-mode textarea::placeholder {
     color: #888;
 }
 
+/* MODO OSCURO - Corrección para contenedores con clases de sección */
+
+body.dark-mode #maincontentcontainer {
+    background: #1a1a1a !important;
+}
+
+body.dark-mode #maincontentcontainer.s_fire,
+body.dark-mode #maincontentcontainer.s_about,
+body.dark-mode #maincontentcontainer.s_design,
+body.dark-mode #maincontentcontainer.s_modular,
+body.dark-mode #maincontentcontainer.s_heat,
+body.dark-mode #maincontentcontainer.s_enla {
+    background: #1a1a1a !important;
+}
+
+body.dark-mode .s_fire_bg,
+body.dark-mode .s_about_bg,
+body.dark-mode .s_design_bg,
+body.dark-mode .s_modular_bg,
+body.dark-mode .s_heat_bg,
+body.dark-mode .s_enla_bg {
+    background: #1a1a1a !important;
+}
