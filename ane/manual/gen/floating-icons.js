@@ -20,9 +20,19 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para desplazar 20 líneas hacia abajo
     function scrollDown20Lines() {
         const lineHeight = parseInt(getComputedStyle(document.body).lineHeight) || 24;
-        const scrollAmount = lineHeight * 20;
+        const scrollAmount = lineHeight * 25;
         window.scrollBy({
             top: scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+    
+    // Función para desplazar 20 líneas hacia arriba
+    function scrollUp20Lines() {
+        const lineHeight = parseInt(getComputedStyle(document.body).lineHeight) || 24;
+        const scrollAmount = lineHeight * 25;
+        window.scrollBy({
+            top: -scrollAmount,
             behavior: 'smooth'
         });
     }
