@@ -8,7 +8,7 @@ padding : 0;
 font : 100%/1.6 Arial, "Helvetica Neue", Helvetica, Helve, sans-serif;
 color : #666; 
 text-align: center;
-background: #f6efd3;
+background: #382c1e;
 }
 
 button, 
@@ -1384,6 +1384,7 @@ h4.news-title { margin:0; padding:0; }
 /*  GALLERY  ============================================================================= */
 
 .gallery { float:left; width:100%; background:#fff;  text-align:center; }
+
 
 
 
