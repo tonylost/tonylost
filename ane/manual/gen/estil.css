@@ -1501,7 +1501,8 @@ body.dark-mode span {
 /* Títulos en modo oscuro */
 body.dark-mode h1 {
     color: #5fa3d9 !important;
-    background: #2a2a2a !important;
+    background: transparent !important;
+    /* O si prefieres: background: #1a1a1a !important; */
 }
 
 body.dark-mode h2 {
@@ -1686,3 +1687,4 @@ body.dark-mode .s_enla h1 {
     color: #5fa3d9 !important;
     text-shadow: 1px 1px 0px #000 !important;
 }
+
