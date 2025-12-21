@@ -1409,7 +1409,7 @@ h4.news-title { margin:0; padding:0; }
 .floating-icon {
     width: 44px;
     height: 44px;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.5);   /* Cambiar transparencia de 0.85 a 0.5 */
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1422,7 +1422,7 @@ h4.news-title { margin:0; padding:0; }
 }
 
 .floating-icon:hover {
-    background-color: rgba(0, 75, 141, 0.95);
+    background-color: rgba(0, 75, 141, 0.75);   /* Cambiar transparencia de 0.95 a 0.75 */
     transform: scale(1.15);
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     border-color: rgba(0, 75, 141, 0.8);
@@ -1583,12 +1583,12 @@ body.dark-mode img {
 
 /* Botones flotantes en modo oscuro */
 body.dark-mode .floating-icon {
-    background-color: rgba(40, 40, 40, 0.9);
+    background-color: rgba(40, 40, 40, 0.55);   /* Cambiar transparencia de 0.9 a 0.55 */
     border-color: rgba(95, 163, 217, 0.5);
 }
 
 body.dark-mode .floating-icon:hover {
-    background-color: rgba(95, 163, 217, 0.95);
+    background-color: rgba(95, 163, 217, 0.75);   /* Cambiar transparencia de 0.95 a 0.75 */
 }
 
 body.dark-mode .floating-icon svg {
@@ -1618,3 +1618,4 @@ body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder {
     color: #888;
 }
+
