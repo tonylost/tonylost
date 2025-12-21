@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para desplazar 20 líneas hacia abajo
     function scrollDown20Lines() {
         const lineHeight = parseInt(getComputedStyle(document.body).lineHeight) || 24;
-        const scrollAmount = lineHeight * 25;
+        const scrollAmount = lineHeight * 20;
         window.scrollBy({
             top: scrollAmount,
             behavior: 'smooth'
@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Función para desplazar 20 líneas hacia arriba
     function scrollUp20Lines() {
         const lineHeight = parseInt(getComputedStyle(document.body).lineHeight) || 24;
-        const scrollAmount = lineHeight * 25;
+        const scrollAmount = lineHeight * 20;
         window.scrollBy({
             top: -scrollAmount,
             behavior: 'smooth'
@@ -61,9 +61,10 @@ document.addEventListener('DOMContentLoaded', function() {
     const btnHome = document.getElementById('btn-home');
     const btnTop = document.getElementById('btn-top');
     const btnBottom = document.getElementById('btn-bottom');
-    const btnScroll = document.getElementById('btn-scroll');
-    const btnDarkMode = document.getElementById('btn-dark-mode');
     const btnHelp = document.getElementById('btn-help');
+    const btnDarkMode = document.getElementById('btn-dark-mode');
+    const btnScrollUp = document.getElementById('btn-scroll-up');
+    const btnScrollDown = document.getElementById('btn-scroll-down');
     
     if (btnHome) {
         btnHome.addEventListener('click', function(e) {
@@ -86,10 +87,10 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    if (btnScroll) {
-        btnScroll.addEventListener('click', function(e) {
+    if (btnHelp) {
+        btnHelp.addEventListener('click', function(e) {
             e.preventDefault();
-            scrollDown20Lines();
+            window.location.href = 'help.html';
         });
     }
     
@@ -100,10 +101,17 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    if (btnHelp) {
-        btnHelp.addEventListener('click', function(e) {
+    if (btnScrollUp) {
+        btnScrollUp.addEventListener('click', function(e) {
             e.preventDefault();
-            window.location.href = 'help.html';
+            scrollUp20Lines();
+        });
+    }
+    
+    if (btnScrollDown) {
+        btnScrollDown.addEventListener('click', function(e) {
+            e.preventDefault();
+            scrollDown20Lines();
         });
     }
     
