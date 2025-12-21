@@ -27,11 +27,32 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Función para alternar modo oscuro
+    function toggleDarkMode() {
+        const body = document.body;
+        const isDark = body.classList.contains('dark-mode');
+        
+        if (isDark) {
+            body.classList.remove('dark-mode');
+            localStorage.setItem('darkMode', 'false');
+        } else {
+            body.classList.add('dark-mode');
+            localStorage.setItem('darkMode', 'true');
+        }
+    }
+    
+    // Verificar si el usuario tenía modo oscuro activado previamente
+    const savedDarkMode = localStorage.getItem('darkMode');
+    if (savedDarkMode === 'true') {
+        document.body.classList.add('dark-mode');
+    }
+    
     // Asignar funciones a los botones
     const btnHome = document.getElementById('btn-home');
     const btnTop = document.getElementById('btn-top');
     const btnBottom = document.getElementById('btn-bottom');
     const btnScroll = document.getElementById('btn-scroll');
+    const btnDarkMode = document.getElementById('btn-dark-mode');
     const btnHelp = document.getElementById('btn-help');
     
     if (btnHome) {
@@ -62,6 +83,13 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    if (btnDarkMode) {
+        btnDarkMode.addEventListener('click', function(e) {
+            e.preventDefault();
+            toggleDarkMode();
+        });
+    }
+    
     if (btnHelp) {
         btnHelp.addEventListener('click', function(e) {
             e.preventDefault();
@@ -76,7 +104,7 @@ document.addEventListener('DOMContentLoaded', function() {
             if (window.pageYOffset > 100) {
                 floatingIcons.style.opacity = '0.7';
             } else {
-                floatingIcons.style.opacity = '0.5';
+                floatingIcons.style.opacity = '0.6';
             }
         }
     });
