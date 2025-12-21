@@ -1481,3 +1481,140 @@ h4.news-title { margin:0; padding:0; }
 .floating-icon:active {
     transform: scale(1.05);
 }
+
+/* MODO OSCURO ============================================================================= */
+
+body.dark-mode {
+    background: #1a1a1a !important;
+    color: #e0e0e0 !important;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Textos principales en modo oscuro */
+body.dark-mode p,
+body.dark-mode li,
+body.dark-mode div,
+body.dark-mode span {
+    color: #e0e0e0;
+}
+
+/* Títulos en modo oscuro */
+body.dark-mode h1 {
+    color: #5fa3d9 !important;
+    background: #2a2a2a !important;
+}
+
+body.dark-mode h2 {
+    color: #6fb3e9 !important;
+}
+
+body.dark-mode h3 {
+    color: #d0d0d0 !important;
+}
+
+body.dark-mode h4 {
+    color: #e89999 !important;
+}
+
+body.dark-mode h5 {
+    color: #7fb3e9 !important;
+}
+
+body.dark-mode h6 {
+    color: #ff6b6b !important;
+}
+
+/* Enlaces en modo oscuro */
+body.dark-mode a {
+    color: #5fa3d9;
+}
+
+body.dark-mode a:visited {
+    color: #7fb8e9;
+}
+
+body.dark-mode a:hover {
+    color: #8fc9ff;
+}
+
+/* Contenedores principales */
+body.dark-mode #maincontentcontainer {
+    background: #1a1a1a;
+}
+
+body.dark-mode #maincontent {
+    color: #e0e0e0;
+}
+
+/* Líneas horizontales */
+body.dark-mode hr {
+    border-top: 1px solid #444;
+}
+
+/* Aside y contenido */
+body.dark-mode .content_aside,
+body.dark-mode .pg_aside {
+    border-color: #444;
+}
+
+/* Gradientes de sección en modo oscuro */
+body.dark-mode .s_fire_bg {
+    background: #2d0a15 !important;
+}
+
+body.dark-mode #maincontentcontainer.s_fire {
+    border-top-color: #7d061a !important;
+}
+
+/* Footer - mantener su estilo pero más oscuro */
+body.dark-mode #footercontainer {
+    background: #0d0d0d;
+}
+
+body.dark-mode footer {
+    color: #b0b0b0;
+}
+
+/* NO afectar a las imágenes - mantener su visualización normal */
+body.dark-mode img {
+    opacity: 1;
+    filter: none;
+}
+
+/* Botones flotantes en modo oscuro */
+body.dark-mode .floating-icon {
+    background-color: rgba(40, 40, 40, 0.9);
+    border-color: rgba(95, 163, 217, 0.5);
+}
+
+body.dark-mode .floating-icon:hover {
+    background-color: rgba(95, 163, 217, 0.95);
+}
+
+body.dark-mode .floating-icon svg {
+    color: #5fa3d9;
+}
+
+body.dark-mode .floating-icon:hover svg {
+    color: #ffffff;
+}
+
+/* Indicador visual del botón de modo oscuro cuando está activo */
+body.dark-mode #btn-dark-mode {
+    background-color: rgba(95, 163, 217, 0.3);
+}
+
+/* Formularios en modo oscuro */
+body.dark-mode input[type="email"],
+body.dark-mode input[type="tel"],
+body.dark-mode input[type="text"],
+body.dark-mode textarea {
+    background: #2a2a2a;
+    color: #e0e0e0;
+    border-color: #444;
+}
+
+body.dark-mode input::placeholder,
+body.dark-mode textarea::placeholder {
+    color: #888;
+}
