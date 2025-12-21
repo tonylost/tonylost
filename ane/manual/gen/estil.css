@@ -1642,3 +1642,47 @@ body.dark-mode .s_heat_bg,
 body.dark-mode .s_enla_bg {
     background: #1a1a1a !important;
 }
+
+/* Corrección para H1 en secciones con modo oscuro */
+
+body.dark-mode .s_fire_bg h1,
+body.dark-mode .s_fire h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
+
+body.dark-mode .s_about_bg h1,
+body.dark-mode .s_about h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
+
+body.dark-mode .s_design_bg h1,
+body.dark-mode .s_design h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
+
+body.dark-mode .s_modular_bg h1,
+body.dark-mode .s_modular h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
+
+body.dark-mode .s_heat_bg h1,
+body.dark-mode .s_heat h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
+
+body.dark-mode .s_enla_bg h1,
+body.dark-mode .s_enla h1 {
+    background: #2a2a2a !important;
+    color: #5fa3d9 !important;
+    text-shadow: 1px 1px 0px #000 !important;
+}
