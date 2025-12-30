@@ -85,8 +85,7 @@ font-size: 1.2em;
 margin: 0;
 padding: 0;
 font-weight: normal;
-line-height: 1.2;
-display: block;
+line-height: 1.3;
 }
 
 /* Estilo para traducciones en blanco */
@@ -96,23 +95,16 @@ font-size: 1.2em;
 margin: 0;
 padding: 0;
 font-weight: normal;
-line-height: 1.2;
-display: block;
+line-height: 1.3;
 }
 
-/* Reducir espacio entre verso latino y su traducción */
-#maincontent p {
-margin-bottom: 1em;
+/* Eliminar margen inferior de párrafos que van seguidos de traducción */
+p + p.traduccion {
+margin-top: -0.8em;
 }
 
-#maincontent p + p.traduccion {
-margin-top: -0.9em;
-margin-bottom: 0.2em;
-}
-
-#maincontent p + p.traduccion2 {
-margin-top: -0.9em;
-margin-bottom: 0.2em;
+p + p.traduccion2 {
+margin-top: -0.8em;
 }
 /*  TYPOGRAPHY  ============================================================================= */
 
@@ -1655,6 +1647,7 @@ body.dark-mode input::placeholder,
 body.dark-mode textarea::placeholder {
     color: #888;
 }
+
 
 
 
