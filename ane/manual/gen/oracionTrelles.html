@@ -30,6 +30,65 @@
 	<link rel="stylesheet" href="flexslider.css" media="all">
 	</head>
 <body>
+<!-- Iconos flotantes con SVG y modo oscuro -->
+<div class="floating-icons">
+    <!-- 1. Casa - Ir a inicio -->
+    <a href="#" id="btn-home" class="floating-icon" title="Ir a inicio">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+            <polyline points="9 22 9 12 15 12 15 22"></polyline>
+        </svg>
+    </a>
+    
+    <!-- 2. Flecha arriba - Ir al comienzo -->
+    <a href="#" id="btn-top" class="floating-icon" title="Ir al comienzo">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="19" x2="12" y2="5"></line>
+            <polyline points="5 12 12 5 19 12"></polyline>
+        </svg>
+    </a>
+    
+    <!-- 3. Flecha abajo - Ir al final -->
+    <a href="#" id="btn-bottom" class="floating-icon" title="Ir al final">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="12" y1="5" x2="12" y2="19"></line>
+            <polyline points="19 12 12 19 5 12"></polyline>
+        </svg>
+    </a>
+    
+    <!-- 4. Interrogación - Ayuda -->
+    <a href="#" id="btn-help" class="floating-icon" title="Ayuda">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+            <line x1="12" y1="17" x2="12.01" y2="17"></line>
+        </svg>
+    </a>
+    
+    <!-- 5. Luna - Modo oscuro -->
+    <a href="#" id="btn-dark-mode" class="floating-icon" title="Alternar modo oscuro/claro">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+    </a>
+    
+    <!-- 6. Doble flecha arriba - Scroll 20 líneas arriba -->
+    <a href="#" id="btn-scroll-up" class="floating-icon" title="Subir 20 líneas">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="17 11 12 6 7 11"></polyline>
+            <polyline points="17 18 12 13 7 18"></polyline>
+        </svg>
+    </a>
+    
+    <!-- 7. Doble flecha abajo - Scroll 20 líneas abajo -->
+    <a href="#" id="btn-scroll-down" class="floating-icon" title="Bajar 20 líneas">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="7 13 12 18 17 13"></polyline>
+            <polyline points="7 6 12 11 17 6"></polyline>
+        </svg>
+    </a>
+</div>
+<!-- Wrapper con headcontainer y maincontainer antes del texto -->
 <div id="wrapper">
 	<div id="headcontainer">
 		<header class="group">
@@ -60,34 +119,28 @@ Orar, meditar, expiar, satisfacer y reparar, interceder y compensar los ultrajes
 	                         </div>
             	</div>
 			</div>
-			<div class="section group homeFeatures">
+	<div class="section group homeFeatures">
+
 			</div>
 		</div>
 	</div>
-      
-	
+
+       	</div>
+
 	<div id="footercontainer">
 		<footer class="group">
 					<div class="col span_1_of_3">
 				<h4>A.N.E.</h4>
 				<ul class="pagefooterlist">
-					 <li>&copy; Adoraci&oacute;n Nocturna Espa&ntilde;ola</li>
+					 <li>Adoraci&oacute;n Nocturna Espa&ntilde;ola
+</li>
 					</ul>
 					</div>
 					<div class="col span_1_of_3">
-				<h4><img src="logoANE.gif" width="100" height="100" title="A.N.E."></h4>
-				
-					</div>
-				<div class="col span_1_of_3">
-				<h4></h4>
-					<ul class="pagefooterlist">
-					<li></li></ul>				
-					</div>
-		
+				<h4><a href="http://www.adoracion-nocturna.org/" title="Acceder a la web de la Adoraci&oacute;n Nocturna Espa&ntilde;ola"><img src="logoANE.gif" width="100" height="100" title="Acceder a la web de la A.N.E."></a></h4>
+						
 			</footer></div>
 		
-	
-
-
+<script src="floating-icons.js"></script>
 </body>
 </html>
