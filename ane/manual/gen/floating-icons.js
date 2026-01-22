@@ -1,6 +1,14 @@
 // Funciones para los iconos flotantes
 document.addEventListener('DOMContentLoaded', function() {
     
+    // Función para actualizar el theme-color del navegador
+    function updateThemeColor(isDarkMode) {
+        const metaThemeColor = document.querySelector('meta[name="theme-color"]');
+        if (metaThemeColor) {
+            metaThemeColor.setAttribute('content', isDarkMode ? '#1a1a1a' : '#f1e7d0');
+        }
+    }
+    
     // Función para ir al inicio de la página
     function scrollToTop() {
         window.scrollTo({
@@ -45,9 +53,11 @@ document.addEventListener('DOMContentLoaded', function() {
         if (isDark) {
             body.classList.remove('dark-mode');
             localStorage.setItem('darkMode', 'false');
+            updateThemeColor(false);
         } else {
             body.classList.add('dark-mode');
             localStorage.setItem('darkMode', 'true');
+            updateThemeColor(true);
         }
     }
     
@@ -55,6 +65,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const savedDarkMode = localStorage.getItem('darkMode');
     if (savedDarkMode === 'true') {
         document.body.classList.add('dark-mode');
+        updateThemeColor(true);
+    } else {
+        updateThemeColor(false);
     }
     
     // Asignar funciones a los botones
