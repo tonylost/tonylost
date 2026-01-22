@@ -1,0 +1,2 @@
+# Redirect del subdominio antiguo al principal
+https://manualane.netlify.app/* https://manual-ane.netlify.app/:splat 301!
