@@ -1,0 +1,28 @@
+# Permitir a todos los buscadores
+User-agent: *
+Allow: /
+
+# Bloquear archivos y carpetas innecesarias (si existen en tu proyecto)
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /src/
+Disallow: /draft/
+Disallow: /temp/
+Disallow: /backup/
+
+# Bloquear archivos de configuración
+Disallow: /*.json$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+Disallow: /.env
+
+# Evitar indexar archivos duplicados o de trabajo
+Disallow: /*?print=
+Disallow: /*?debug=
+Disallow: /*.pdf.html$
+
+# Optimización del rastreo
+Crawl-delay: 1
+
+# Sitemap principal
+Sitemap: https://manual-ane.github.io/manual-ane/sitemap.xml
