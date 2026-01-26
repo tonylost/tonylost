@@ -11,7 +11,7 @@ Contenido de este directorio:
 - Queda prohibida su reproducción o distribución fuera de
   este contexto sin autorización escrita del titular.
 - Páginas HTML, hojas de estilo y scripts propios (ver LICENCIA).  
-- Fragmentos de textos de terceros incluidos **con permiso** o bajo el **artículo 32 de la LPI** (cita breve).  
+- Fragmentos de textos de terceros incluidos **con permiso** o bajo el **artículo 32 de la LPI**.  
 - Archivos de configuración para generar el sitio estático y la integración como PWA.
 
 ## Derechos de los textos
@@ -26,11 +26,9 @@ El código, diseño y notas originales se publican bajo
 **Creative Commons BY-NC-ND 4.0**.  
 Ver [`LICENSE.md`](LICENSE.md).
 
-## Cómo colaborar
-1. Haz *fork* del repo.  
-2. Abre un *issue* antes de proponer cambios en los textos de terceros.  
-3. Las *pull requests* sobre el código son bienvenidas siempre que  
-   respeten la licencia CC BY-NC-ND 4.0.
+## Finalidad
+El contenido tiene como única finalidad facilitar el seguimiento y participación en las vigilias mensuales.
+No se persigue ningún fin comercial que perjudique al titular de los derechos.
 
 ## Contacto
 Para contactar abre un [issue](https://github.com/tonylost/tonylost/issues).
