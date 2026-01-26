@@ -1,4 +1,4 @@
-# MANUAL DE LA ADORACIÓN NOCTURNA ESPAÑOLA
+# MANUAL DE LA ADORACIÓN NOCTURNA ESPAÑOLA *version gen*
 
 Este directorio aloja el código y la estructura base **genuina** según el Manual de la Adoración Nocturna Española para GitHub Pages.<br>
 Esta **versión gen** ha intentado mantener la fidelidad a la estructura original
