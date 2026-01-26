@@ -16,16 +16,13 @@ Contenido de este directorio:
 - Archivos de configuración para generar el sitio estático y la integración como PWA.
 
 ## Derechos de los textos
-Los **textos reproducidos o citados** pertenecen íntegramente a sus  
-autores y/o editoriales.  
-Cualquier **redistribución o uso posterior** requiere autorización  
-expresa del titular de los derechos.  
+Los **textos reproducidos o citados** pertenecen íntegramente a sus autores y/o editoriales.  
+Cualquier **redistribución o uso posterior** requiere autorización expresa del titular de los derechos.  
 Ver [`DERECHOS-AUTORES.md`](DERECHOS-AUTORES.md) para más detalles.
 
 ## Licencia de la parte propia
-El código, diseño y notas originales se publican bajo  
-**Creative Commons BY-NC-ND 4.0**.  
-Ver [`LICENSE.md`](LICENSE.md).
+El código, diseño y notas originales se publican bajo **Creative Commons BY-NC-ND 4.0**.  
+Ver [`LICENSE.md`](LICENSE.md) para más detalles.
 
 ## Finalidad
 El contenido de los textos reproducidos tiene como única finalidad facilitar la participación<br>
