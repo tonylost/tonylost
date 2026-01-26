@@ -27,8 +27,8 @@ El código, diseño y notas originales se publican bajo
 Ver [`LICENSE.md`](LICENSE.md).
 
 ## Finalidad
-El contenido de los textos reproducidos tiene como única finalidad facilitar la participación
-en las vigilias mensuales, pueden ser consultados en su integridad en la [web de la asociación](https://www.adoracion-nocturna.org)
+El contenido de los textos reproducidos tiene como única finalidad facilitar la participación<br>
+en las vigilias mensuales, pueden ser consultados en su integridad en la [web de la asociación](https://www.adoracion-nocturna.org).<br>
 No se persigue ningún fin comercial que perjudique al titular de los derechos.
 
 ## Contacto
