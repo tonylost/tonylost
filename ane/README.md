@@ -2,7 +2,7 @@
 Esta carpeta aloja contenido sobre la Adoración Nocturna para GitHub Pages.
 
 ## Contenido
-- Páginas HTML, hojas de estilo y scripts propios (ver LICENCIA).  
+- Páginas HTML, hojas de estilo y scripts propios ([ver LICENCIA](https://github.com/tonylost/tonylost/tree/main/ane#licencia-de-la-parte-propia)).  
 - Fragmentos de textos de terceros incluidos **con permiso** o bajo el **artículo 32 de la LPI** (cita breve).  
 - Archivos de configuración para generar el sitio estático y la integración como PWA.
 
