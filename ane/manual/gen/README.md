@@ -2,7 +2,7 @@
 
 Este directorio aloja el código y la estructura base **genuina** según el Manual de la Adoración Nocturna Española para GitHub Pages.<br>
 Esta **versión gen** ha intentado mantener la fidelidad a la estructura original
-a fin de poder resultar familiar a aquellos acostumbrados a versiones anteriores.
+a fin de poder resultar familiar a aquellos acostumbrados a versiones anteriores.<br>
 Todos los textos están disponibles públicamente en el [sitio web de la asociación](https://www.adoracion-nocturna.org).
 
 ## Contenido
