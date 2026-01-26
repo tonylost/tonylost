@@ -2,8 +2,7 @@
 
 Este repositorio aloja el código y la estructura base original 
 según el Manual de la Adoración Nocturna Española para GitHub Pages.<br>
-Esta versión **mod** busca la adaptabilidad a las nuevas tecnologías,<br>
-para quienes busquen la versión clásica se recomienda [la versión **gen**](https://github.com/tonylost/tonylost/tree/main/ane/manual/gen).<br>
+Esta versión **mod** busca la adaptabilidad a las nuevas tecnologías, para quienes busquen la versión clásica se recomienda [la versión **gen**](https://github.com/tonylost/tonylost/tree/main/ane/manual/gen).<br>
 Todos los textos están disponibles públicamente en el [sitio web de la asociación](https://www.adoracion-nocturna.org).
 
 ## Contenido
