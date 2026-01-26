@@ -1,4 +1,4 @@
-# MANUAL DE LA ADORACIÓN NOCTURNA ESPAÑOLA
+# MANUAL DE LA ADORACIÓN NOCTURNA ESPAÑOLA [*versión mod*]
 
 Este directorio aloja el código y la estructura base **modificada** del Manual de la Adoración Nocturna Española para GitHub Pages.<br>
 Esta versión **mod** busca la adaptabilidad a las nuevas tecnologías mediante el uso del formato ePUB 3.0 adaptado para el uso de lectores<br> de tinta electrónica.
