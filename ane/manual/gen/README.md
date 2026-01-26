@@ -22,7 +22,7 @@ Ver [`DERECHOS-AUTORES.md`](DERECHOS-AUTORES.md) para más detalles.
 
 ## Licencia de la parte propia
 El código, diseño y notas originales se publican bajo **Creative Commons BY-NC-ND 4.0**.  
-Ver [`LICENSE.md`](LICENSE.md). para más detalles.
+Ver [`LICENSE.md`](LICENSE.md) para más detalles.
 
 ## Finalidad
 El contenido de los textos reproducidos tiene como única finalidad facilitar la participación<br>
