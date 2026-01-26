@@ -2,7 +2,7 @@
 
 Este directorio aloja el código y la estructura base **modificada** del Manual de la Adoración Nocturna Española para GitHub Pages.<br>
 Esta versión **mod** busca la adaptabilidad a las nuevas tecnologías mediante el uso del formato ePUB 3.0 adaptado para el uso de lectores<br> de tinta electrónica.
-Para quienes busquen la versión clásica se recomienda [la versión **gen**](https://github.com/tonylost/tonylost/tree/main/ane/manual/gen).<br>
+Para quienes busquen la versión clásica se recomienda la [versión **gen**](https://github.com/tonylost/tonylost/tree/main/ane/manual/gen).<br>
 Todos los textos están disponibles públicamente en el [sitio web de la asociación](https://www.adoracion-nocturna.org).
 
 ## Contenido
